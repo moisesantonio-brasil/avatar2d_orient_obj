@@ -4,7 +4,7 @@ body{
 .base-avatar{
     width: 266px;
     height: 602px;
-    background-image: url("/imagens/Img/personagem.png");
+    background-image: url("./imagens/Img/personagem.png");
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
 }
@@ -62,16 +62,16 @@ h1{
     border-radius: 5px;
 }
 .cabelo-modelo{
-    background-image: url("/imagens/Img/base-cabelo.png");
+    background-image: url("./imagens/Img/base-cabelo.png");
 }
 .calça-modelo{
-    background-image: url("/imagens/Img/base-calça.png");
+    background-image: url("./imagens/Img/base-calça.png");
 }
 .camiseta-modelo{
-    background-image: url("/imagens/Img/base-camiseta.png");
+    background-image: url("./imagens/Img/base-camiseta.png");
 }
 .tenis-modelo{
-    background-image: url("/imagens/Img/base-tenis.png");
+    background-image: url("./imagens/Img/base-tenis.png");
 }
 button{
     margin-left:130px;
