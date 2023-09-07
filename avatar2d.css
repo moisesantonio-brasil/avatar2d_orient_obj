@@ -4,7 +4,7 @@ body{
 .base-avatar{
     width: 266px;
     height: 602px;
-    background-image: url("./imagens/Img/personagem.png");
+    background-image: url("././imagens/Img/personagem.png");
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
 }
