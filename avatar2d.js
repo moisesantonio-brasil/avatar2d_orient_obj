@@ -30,17 +30,17 @@ switch(cond_cabelo){
         base_cabelo.style ="background-image: url(/);"
         break;
     case 1:
-cond_cabelo_anterior = "background-image: url(/imagens/Img/cabelo03.png);"
-base_cabelo.style ="background-image: url(/imagens/Img/cabelo03.png);"
+cond_cabelo_anterior = "background-image: url(./imagens/Img/cabelo03.png);"
+base_cabelo.style ="background-image: url(./imagens/Img/cabelo03.png);"
 break;
     case 2:
-        cond_cabelo_anterior = "background-image: url(/imagens/Img/cabelo04.png);"
-        base_cabelo.style ="background-image: url(/imagens/Img/cabelo04.png);"
+        cond_cabelo_anterior = "background-image: url(./imagens/Img/cabelo04.png);"
+        base_cabelo.style ="background-image: url(./imagens/Img/cabelo04.png);"
 break;
 default:
-    cond_cabelo_anterior = "background-image: url(/imagens/Img/cabelo02.png);"
+    cond_cabelo_anterior = "background-image: url(./imagens/Img/cabelo02.png);"
     cond_cabelo -= 4
-    base_cabelo.style ="background-image: url(/imagens/Img/cabelo02.png);"
+    base_cabelo.style ="background-image: url(./imagens/Img/cabelo02.png);"
 }
 base_nome.style = "display:block"
 })
@@ -51,21 +51,21 @@ button[1].addEventListener("click",()=>{
     guarda_roupa_estoque.push(`CAMISETA +ADD ${cond_camiseta}`)
     switch(cond_camiseta){
         case 0:
-    cond_camiseta_anterior = "background-image: url(/imagens/Img/camiseta01.png);"
-    base_camiseta.style ="background-image: url(/imagens/Img/camiseta01.png);"
+    cond_camiseta_anterior = "background-image: url(./imagens/Img/camiseta01.png);"
+    base_camiseta.style ="background-image: url(./imagens/Img/camiseta01.png);"
             break;
         case 1:
-    cond_camiseta_anterior = "background-image: url(/imagens/Img/camiseta02.png);"
-    base_camiseta.style ="background-image: url(/imagens/Img/camiseta02.png);"
+    cond_camiseta_anterior = "background-image: url(./imagens/Img/camiseta02.png);"
+    base_camiseta.style ="background-image: url(./imagens/Img/camiseta02.png);"
     break;
         case 2:
-    cond_camiseta_anterior = "background-image: url(/imagens/Img/camiseta03.png);"
-    base_camiseta.style ="background-image: url(/imagens/Img/camiseta03.png);"
+    cond_camiseta_anterior = "background-image: url(./imagens/Img/camiseta03.png);"
+    base_camiseta.style ="background-image: url(./imagens/Img/camiseta03.png);"
     break;
     default:
-        cond_camiseta_anterior = "background-image: url(/imagens/Img/camiseta04.png);"
+        cond_camiseta_anterior = "background-image: url(./imagens/Img/camiseta04.png);"
         cond_camiseta -= 4
-        base_camiseta.style ="background-image: url(/imagens/Img/camiseta04.png);"
+        base_camiseta.style ="background-image: url(./imagens/Img/camiseta04.png);"
     }
     base_nome.style = "display:block"
     })
@@ -75,21 +75,21 @@ button[1].addEventListener("click",()=>{
         guarda_roupa_estoque.push(`CALÇA +ADD ${cond_calça}`)
         switch(cond_calça){
             case 0:
-        cond_calça_anterior = "background-image: url(/imagens/Img/calça2.png);"
-        base_calça.style ="background-image: url(/imagens/Img/calça2.png);"
+        cond_calça_anterior = "background-image: url(./imagens/Img/calça2.png);"
+        base_calça.style ="background-image: url(./imagens/Img/calça2.png);"
                 break;
             case 1:
-        cond_calça_anterior = "background-image: url(/imagens/Img/calça1.png);"
-        base_calça.style ="background-image: url(/imagens/Img/calça1.png);"
+        cond_calça_anterior = "background-image: url(./imagens/Img/calça1.png);"
+        base_calça.style ="background-image: url(./imagens/Img/calça1.png);"
         break;
             case 2:
-        cond_calça_anterior = "background-image: url(/imagens/Img/calça3.png);"
-        base_calça.style ="background-image: url(/imagens/Img/calça3.png);"
+        cond_calça_anterior = "background-image: url(./imagens/Img/calça3.png);"
+        base_calça.style ="background-image: url(./imagens/Img/calça3.png);"
         break;
         default:
             cond_calça -= 4
-            cond_calça_anterior = "background-image: url(/imagens/Img/calça4.png);"
-            base_calça.style ="background-image: url(/imagens/Img/calça4.png);"
+            cond_calça_anterior = "background-image: url(./imagens/Img/calça4.png);"
+            base_calça.style ="background-image: url(./imagens/Img/calça4.png);"
         }
         base_nome.style = "display:block"
         })
@@ -99,17 +99,17 @@ button[1].addEventListener("click",()=>{
             guarda_roupa_estoque.push(`TENIS +ADD ${cond_tenis}`)
             switch(cond_tenis){
                 case 0:
-            cond_tenis_anterior = "background-image: url(/imagens/Img/tenis1.png);"
-            base_tenis.style ="background-image: url(/imagens/Img/tenis1.png);"
+            cond_tenis_anterior = "background-image: url(./imagens/Img/tenis1.png);"
+            base_tenis.style ="background-image: url(./imagens/Img/tenis1.png);"
                     break;
                 case 1:
-            cond_tenis_anterior = "background-image: url(/imagens/Img/tenis2.png);"
-            base_tenis.style ="background-image: url(/imagens/Img/tenis2.png);"
+            cond_tenis_anterior = "background-image: url(./imagens/Img/tenis2.png);"
+            base_tenis.style ="background-image: url(./imagens/Img/tenis2.png);"
             break;
             default:
-                cond_tenis_anterior = "background-image: url(/imagens/Img/tenis3.png);"
+                cond_tenis_anterior = "background-image: url(./imagens/Img/tenis3.png);"
                 cond_tenis -= 3
-                base_tenis.style ="background-image: url(/imagens/Img/tenis3.png);"
+                base_tenis.style ="background-image: url(./imagens/Img/tenis3.png);"
             }
             base_nome.style = "display:block"
             })
@@ -136,18 +136,18 @@ button[1].addEventListener("click",()=>{
                 base_personagem.setAttribute("class","base-personagem")
 
 if(cond_cabelo_anterior.style == ""){
-cond_cabelo_anterior.style = "background-image: url(/imagens/Img/cabelo02.png);"
+cond_cabelo_anterior.style = "background-image: url(./imagens/Img/cabelo02.png);"
     }
 if(cond_camiseta_anterior.style == ""){
-cond_camiseta_anterior.style = "background-image: url(/imagens/Img/camiseta01.png);"
+cond_camiseta_anterior.style = "background-image: url(./imagens/Img/camiseta01.png);"
 }
 if(cond_calça_anterior.style == ""){
-    cond_calça_anterior.style = "background-image: url(/imagens/Img/calça1.png);"
+    cond_calça_anterior.style = "background-image: url(./imagens/Img/calça1.png);"
         }
 if(cond_tenis_anterior.style == ""){
-cond_tenis_anterior.style = "background-image: url(/imagens/Img/tenis1.png);"
+cond_tenis_anterior.style = "background-image: url(./imagens/Img/tenis1.png);"
     }
-                papel_foto.style = "background-image: url(/imagens/Img/personagem.png);"
+                papel_foto.style = "background-image: url(./imagens/Img/personagem.png);"
                 base_cabelo_nova.style = cond_cabelo_anterior;
                 base_camiseta_nova.style = cond_camiseta_anterior;
                 base_calça_nova.style = cond_calça_anterior;
