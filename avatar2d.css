@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(50, 131, 66);
+}
+.base-avatar{
+    width: 266px;
+    height: 602px;
+    background-image: url("/imagens/Img/personagem.png");
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.base-cabelo{
+    top: 5%;
+    position: absolute;
+    width: 266px;
+    height: 602px;
+
+}
+.base-camiseta{
+    position: absolute;
+    width: 266px;
+    height: 602px;
+
+}
+.base-calça{
+    position: absolute;
+    width: 266px;
+    height: 602px;
+    background-image: url("/");
+}
+.base-tenis{
+    position: absolute;
+    width: 266px;
+    height: 602px;
+    background-image: url("/");
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 0px;
+    width: 580px;
+}
+.base-btn{
+    margin-left: 10px;
+    width: 300px;
+    background-color: rgb(55, 197, 97);
+    border-radius: 10px;
+}
+h1{
+ line-height: 1%;
+    color: white;
+
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cabelo-modelo,.camiseta-modelo,.calça-modelo,.tenis-modelo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.cabelo-modelo{
+    background-image: url("/imagens/Img/base-cabelo.png");
+}
+.calça-modelo{
+    background-image: url("/imagens/Img/base-calça.png");
+}
+.camiseta-modelo{
+    background-image: url("/imagens/Img/base-camiseta.png");
+}
+.tenis-modelo{
+    background-image: url("/imagens/Img/base-tenis.png");
+}
+button{
+    margin-left:130px;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+border-radius: 10px;
+font-weight: bolder;
+cursor: pointer;
+}
+
+.nome-base{
+    height:80px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    display: none;
+}
+p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 1%;
+}
+input{
+    text-indent: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.criar-icon{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100px;
+    height: 30px;
+    background-color: silver;
+}
+
+.guarda-roupa{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.papel-foto{
+    width: 266px;
+    height: 602px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.base-cabelo-nova,.base-calça-nova,
+.base-camiseta-nova,.base-tenis-nova{
+    width: 266px;
+    height: 602px;
+    position: absolute;
+}
+.base-personagem{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+.nome-personagem{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(0, 0, 0);
+text-align: justify;
+}
